@@ -20,5 +20,6 @@ public class Test01_GET {
     void test_02()
     {
         given().get("https://reqres.in/api/users?page=2").then().statusCode(200);
+        System.out.println( "Testcase 2 passed");
     }
 }
