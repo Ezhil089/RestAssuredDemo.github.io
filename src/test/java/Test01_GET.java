@@ -14,7 +14,7 @@ public class Test01_GET {
         System.out.println(response);
         System.out.println(response.getBody().asString());
         System.out.println( response.getStatusCode());
-        System.out.println( "Testcase 1 passed");
+        System.out.println( "Testcase 1 passed with output");
     }
     @Test
     void test_02()
