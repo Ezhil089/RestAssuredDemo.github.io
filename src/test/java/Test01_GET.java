@@ -13,7 +13,8 @@ public class Test01_GET {
         Response response = get("https://reqres.in/api/users?page=2");
         System.out.println(response);
         System.out.println(response.getBody().asString());
-        System.out.println(response.getStatusCode());
+        System.out.println( response.getStatusCode());
+        System.out.println( "Testcase 1 passed");
     }
     @Test
     void test_02()
