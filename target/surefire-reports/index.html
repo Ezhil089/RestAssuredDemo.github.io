@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -110,6 +110,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Test01_GET" title="Test01_GET" class="method navigator-link" hash-for-method="test_02">test_02</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test01_GET" title="Test01_GET" class="method navigator-link" hash-for-method="test_03">test_03</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Test01_GET -->
@@ -142,6 +147,13 @@
                   <a name="test_02">
                   </a> <!-- test_02 -->
                   <span class="method-name">test_02</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_03">
+                  </a> <!-- test_03 -->
+                  <span class="method-name">test_03</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -197,20 +209,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test_01')
 data.setCell(0, 2, 'Test01_GET')
-data.setCell(0, 3, 15719);
+data.setCell(0, 3, 8354);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test_02')
+data.setCell(1, 1, 'test_03')
 data.setCell(1, 2, 'Test01_GET')
-data.setCell(1, 3, 274);
+data.setCell(1, 3, 1865);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test_02')
+data.setCell(2, 2, 'Test01_GET')
+data.setCell(2, 3, 317);
 window.suiteTableData['Test01_GET']= { tableData: data, tableDiv: 'times-div-Test01_GET'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
               <div id="times-div-Test01_GET">
               </div> <!-- times-div-Test01_GET -->
             </div> <!-- times-div -->
@@ -243,7 +259,11 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_02</span>
-                <span class="method-start">15746 ms</span>
+                <span class="method-start">8401 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_03</span>
+                <span class="method-start">8718 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Test01_GET
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.948 sec
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.934 sec
